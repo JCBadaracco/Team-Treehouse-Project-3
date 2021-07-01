@@ -1,0 +1,203 @@
+body {
+margin: 0;
+
+}
+html {
+    width: fit-content;
+}
+h1 {
+  background: rgb(59, 58, 58);
+  color:white;  
+  text-align: center;
+  font-size: 22px  ;
+  padding: 30px;
+  margin: auto;
+}
+h2 {
+   text-align: center; 
+}
+.h-2 {
+    text-align: left;
+}
+.header2 {
+
+    text-align: left;
+}
+input:focus {
+    background: grey;
+    color: white;
+}   
+
+p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 20px 0 20px;
+    color: rgb(148, 144, 144);
+}
+
+label {
+    color: rgb(145, 141, 141);
+   }
+
+.textcolor{
+color: lightgray;
+
+}
+.underline {
+border-bottom: 6px double;
+padding: 0 0 10px 0; 
+margin: 20px;
+}
+  
+.leftmar {
+    text-align: left;
+    padding: 2rem;
+    background: peachpuff;
+}
+
+.left {
+        text-align: left;
+        padding: 10px;
+        margin: 21px -10px;
+   }
+
+.input1 {
+width: 360px;
+height: 46px;
+background: rgb(236, 235, 235);
+border-radius: 8px;
+border: none;
+margin: 8px 0 14px 0
+}
+.news-1 {
+    padding: 2rem;
+    background: peachpuff;
+}
+
+option[default] {
+    display: none;
+
+}
+select {
+    color: grey;
+  }
+  option {
+    color: black;
+  }
+  option[default] {
+     display: none;
+  }
+
+.input3 {
+    margin: 8px 0 14px 0;
+}
+
+::placeholder {
+    text-align: right;
+    color: rgb(202, 192, 192);
+
+}
+
+select {
+    width: 220px;
+height: 35px;
+}
+
+fieldset {
+
+    border: none;
+}
+textarea {
+    width: 360px;
+    height: 100px;
+    background: rgb(236, 235, 235);;
+    border: none;
+  }
+
+  .submitb {
+     background: rgb(60, 194, 165); 
+     width: 360px;
+    height: 65px;
+    border-radius: 8px;
+    color: white;
+    font-size: large;
+    margin: 20px 0;
+    border: none;
+}
+
+    
+ @media screen and (min-width: 768px) {
+   fieldset { 
+    width: 50vw;
+    margin: auto;
+   }
+
+   label {
+    display: inline-block;
+    width: 110px;}
+    
+    textarea {
+        width: 500px;
+        margin-top: 10px
+    }
+    .leftmar {
+        text-align: left;
+        background: peachpuff;
+        padding: 44p;
+    }
+        
+        .left {
+             
+                text-align: left;
+                padding: 10px;
+                margin: 21px -10px;  
+           }
+
+        .submitb {
+        
+            width: 500px;
+          }             
+            
+          .news {
+            text-align: left;
+            padding: 100px ;
+            background: peachpuff;
+            margin:20px;
+          } 
+            
+     #zip {
+     width: 170px
+     }
+     
+       .submitb {
+     
+         width: 500px;
+       }             
+         
+      .h-2{
+       text-align:left
+      }  
+      
+      .flex {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .inline{
+       display: flex;
+       flex-direction: row;
+   }
+        
+   .info {
+    display: flex;
+    flex-direction: row;
+}
+
+            
+ 
+   
+      
+    
+    
+}      
+    
