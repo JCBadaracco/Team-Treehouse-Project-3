@@ -5,12 +5,16 @@ body {
     
     }
     h1 {
-        background: rgb(59, 58, 58);
+        background: #b38e6c;
         color:white;  
         text-align: center;
         font-size: 1.2em  ;
         padding: 1.5em;
         margin: auto;
+    }
+
+    .top {
+        margin-bottom: 2em;
     }
     h2 {
        text-align: center; 
@@ -31,7 +35,8 @@ body {
         outline-color: rgb(65, 206, 65);
     }  
     legend {
-        padding-bottom: 16px;
+        padding-bottom: 18px;
+        padding-top: 44px;
         font-size: x-large;
     } 
     
@@ -81,7 +86,7 @@ body {
         margin: 15px 0 14px 0;
     }
     .news-1 {
-        padding: 2rem;
+        padding: 1rem;
         background: peachpuff;
     }
     
@@ -116,8 +121,8 @@ body {
     }
     
     fieldset {
-    
-        border: none;
+    border: none;
+    background-color: peachpuff;
     }
     textarea {
         width: 100%;
@@ -145,6 +150,7 @@ body {
         hr {
             max-width: 739px;
             height: 3px;
+            margin-bottom: -2em;
             background-color: black;
             background-repeat: inherit;
         }
@@ -156,11 +162,19 @@ body {
         
      @media screen and (min-width: 768px) {
       
-       .contact-info {
+        .contact-info {
             width: 39%;
             margin: auto;
-            min-width: 740px ;
+            background-color: peachpuff;
+            padding: 14px;
             flex-flow: row wrap;
+        }
+
+        legend {
+            padding-bottom: 14px;
+            padding-top: 44px;
+            font-size: x-large;
+            
         }
     
         .news-1 {
@@ -168,7 +182,7 @@ body {
             margin: auto;
             max-width: 740px;
             background: peachpuff;
-            padding: 2rem;
+            padding: 18px;
             min-width: 679px;
             }
        .submitb {
@@ -210,4 +224,5 @@ body {
             align-items: baseline;
             width: 43em;
         }
+
     }
