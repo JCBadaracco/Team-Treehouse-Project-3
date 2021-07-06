@@ -31,17 +31,36 @@ body {
     
         text-align: left;
     }
-    input:focus {
-        outline-color: rgb(65, 206, 65);
-    }  
-    legend {
+    
+    .input1:hover {
+        background:  #e4d9cf;
+    }
+    .input1:focus {
+
+        outline-color:black;
+    }
+    select:hover {
+        background:  #e4d9cf;
+    }
+    select:focus {
+        
+        outline-color:black
+    }
+    textarea:hover {
+        background:  #e4d9cf;
+    }
+    textarea:hover{
+          
+        outline-color:black;
+}
+ legend {
         padding-bottom: 18px;
         padding-top: 44px;
         font-size: x-large;
     } 
     
     input#zip{
-        width: 33%;
+        width: 50%;
         display: flex;
     }
     p {
@@ -67,9 +86,7 @@ body {
             padding: 2rem;
             background: peachpuff;
         }
-        input#zip {
-             width: 33%;
-        }
+    
     
     .left {
         text-align: left;
@@ -109,10 +126,17 @@ body {
         margin: 14px 24px 21px 0px;
     }
     
-    ::placeholder {
+  ::placeholder {
+        text-align: left;
+        color: rgb(202, 192, 192);
+    }
+    #name::placeholder {
         text-align: right;
         color: rgb(202, 192, 192);
-    
+    }
+    #email::placeholder {
+        text-align: right;
+        color: rgb(202, 192, 192);
     }
     
     select {
