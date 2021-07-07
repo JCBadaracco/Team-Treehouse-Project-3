@@ -32,28 +32,20 @@ body {
         text-align: left;
     }
     
-    .input1:hover {
-        background:  #e4d9cf;
+    .input1:focus, 
+     select:focus,
+     textarea:focus {
+   outline:black solid 5px;
+  }
+    
+    .input1:hover, 
+     select:hover,
+     textarea:hover {
+          background:  #e4d9cf;
     }
-    .input1:focus {
-
-        outline-color:black;
-    }
-    select:hover {
-        background:  #e4d9cf;
-    }
-    select:focus {
-        
-        outline-color:black
-    }
-    textarea:hover {
-        background:  #e4d9cf;
-    }
-    textarea:hover{
-          
-        outline-color:black;
-}
- legend {
+    
+    
+    legend {
         padding-bottom: 18px;
         padding-top: 44px;
         font-size: x-large;
@@ -100,6 +92,9 @@ body {
         background: rgb(236, 235, 235);
         border-radius: 10px;
         border: none;
+        margin: 15px 0 14px 0;
+        transition-property: all;
+
         margin: 15px 0 14px 0;
     }
     .news-1 {
@@ -154,6 +149,7 @@ body {
         background: rgb(236, 235, 235);
         border: none;
         margin-top: 1em;
+        transition-property: all;
     }
     
     .submitb {
